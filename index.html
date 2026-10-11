@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>SVIM — Sistema de Vigilancia y Monitoreo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SVIM es un circuito de 3 apps que protege tu equipo móvil contra el robo y la venta ilegal, verificando su integridad en tiempo real junto a OSIPTEL, GSMA, RENIEC y los operadores móviles.">
+<link rel="icon" type="image/png" href="img/logo_osiptel.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#inicio" class="brand">
+      <img src="img/logo_svim.png" alt="SVIM">
+      <span>SVIM</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#que-es">Qué es</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#compatibilidad">Compatibilidad</a>
+      <a href="#instalacion">Instalación</a>
+      <a href="#faq">Preguntas</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <span class="eyebrow">Propuesta para OSIPTEL · Sistema de Vigilancia y Monitoreo</span>
+      <h1>Un celular robado deja de servir.</h1>
+      <p class="hero-sub">
+        SVIM es un circuito de 3 apps que se vigilan entre sí y verifican en tiempo real la
+        integridad de tu equipo, cruzando la información con GSMA, RENIEC, SUNAT y los
+        operadores móviles para frenar el robo y el mercado ilegal de celulares en el Perú.
+      </p>
+      <div class="hero-actions">
+        <a href="#como-funciona" class="btn btn-primary">Cómo funciona</a>
+        <a href="#instalacion" class="btn btn-ghost">Ver instalación</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>3</dt><dd>apps que se vigilan entre sí</dd></div>
+        <div><dt>7</dt><dd>instituciones integradas</dd></div>
+        <div><dt>24/7</dt><dd>verificación continua</dd></div>
+      </dl>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <img src="img/logo_svim_2.png" alt="">
+    </div>
+  </section>
+
+  <!-- QUE ES / PROBLEMA -->
+  <section class="section" id="que-es">
+    <div class="section-inner">
+      <div class="two-col">
+        <div>
+          <span class="tag">El problema</span>
+          <h2>El robo de celulares mueve un mercado informal que hoy casi nadie verifica</h2>
+          <p>
+            Un equipo robado cambia de dueño, de línea y hasta de ciudad sin que ninguna
+            institución cruce esa información. Hoy no hay una forma simple de que un comprador
+            sepa, antes de pagar, si el celular que le ofrecen tiene una denuncia activa o un
+            IMEI bloqueado.
+          </p>
+        </div>
+        <div>
+          <span class="tag">La propuesta</span>
+          <h2>SVIM: un circuito de verificación cruzada, en tiempo real</h2>
+          <p>
+            En vez de depender de un solo sistema, SVIM reparte la verificación en 3 apps
+            independientes que se acompañan entre sí y reportan a un backend central. Ese
+            backend cruza la identidad del equipo contra las bases de GSMA, RENIEC, SUNAT,
+            CONADIS, RETMIEF, RENTESEG y los operadores móviles — y si algo no cuadra, bloquea
+            el equipo y alerta a OSIPTEL.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="section section-alt" id="como-funciona">
+    <div class="section-inner">
+      <span class="tag">Cómo funciona</span>
+      <h2>Un circuito de 3 apps que se acompañan y un backend que verifica</h2>
+      <p class="section-lead">
+        Las 3 apps SVIM (Info, Resultado e Integridad) se instalan por separado en el mismo
+        equipo. Ninguna funciona sola: se emparejan una vez y desde ahí se respaldan entre sí.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
+          <h3>1. Emparejamiento</h3>
+          <p>La primera app genera un código de 6 dígitos. Las otras 2 lo ingresan para unirse al mismo circuito en este equipo.</p>
+        </li>
+        <li>
+          <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <h3>2. Verificación continua</h3>
+          <p>Cada app reporta su presencia e identidad al backend de forma periódica y cada vez que se abre — sin esperar a que algo falle para revisar.</p>
+        </li>
+        <li>
+          <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <h3>3. Cruce institucional</h3>
+          <p>El backend compara la identidad del equipo contra GSMA (IMEI/blacklist), RENTESEG (denuncias de robo), RENIEC, SUNAT y los operadores.</p>
+        </li>
+        <li>
+          <div class="step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></div>
+          <h3>4. Alerta y bloqueo</h3>
+          <p>Si falta una app, la identidad no coincide, o el equipo figura reportado, el circuito bloquea el acceso y notifica a OSIPTEL con la evidencia.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section" id="beneficios">
+    <div class="section-inner">
+      <span class="tag">Beneficios</span>
+      <h2>Qué gana cada parte del ecosistema</h2>
+
+      <div class="cards-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+          <h3>Para el ciudadano</h3>
+          <p>Si te roban el equipo, deja de ser útil para quien lo robó: queda marcado y bloqueado en el circuito. Eso reduce el incentivo del robo en primer lugar.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>Para el mercado</h3>
+          <p>Un comprador puede saber si un equipo tiene antecedentes antes de pagar por él, lo que encarece y desincentiva la venta de celulares robados.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg></div>
+          <h3>Para OSIPTEL</h3>
+          <p>Panel administrativo con alertas en tiempo real, mapa de incidencias y verificación cruzada contra 7 fuentes, sin depender de reportes manuales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPATIBILIDAD -->
+  <section class="section section-alt" id="compatibilidad">
+    <div class="section-inner">
+      <span class="tag">Compatibilidad</span>
+      <h2>Construido en React Native, honesto sobre lo que cada plataforma permite</h2>
+      <p class="section-lead">
+        Ni Android ni iOS entregan el IMEI real a una app común, así que SVIM usa el
+        identificador de instalación que cada plataforma sí expone, y refuerza la detección
+        donde el sistema operativo lo permite.
+      </p>
+
+      <div class="compat-grid">
+        <div class="compat-card compat-ready">
+          <div class="compat-head">
+            <h3>Android</h3>
+            <span class="badge badge-ok">Disponible</span>
+          </div>
+          <ul>
+            <li>Android 8.0 (Oreo) o superior</li>
+            <li>Detección instantánea si una app hermana se desinstala</li>
+            <li>Verificación de root / hooking activa</li>
+            <li>Probado en equipos reales de gama media</li>
+          </ul>
+        </div>
+        <div class="compat-card">
+          <div class="compat-head">
+            <h3>iOS</h3>
+            <span class="badge badge-pending">En desarrollo</span>
+          </div>
+          <ul>
+            <li>El código ya es compatible con iOS (React Native)</li>
+            <li>Pendiente: cuenta de Apple Developer para compilar y firmar</li>
+            <li>La verificación continuará funcionando vía backend</li>
+            <li>Sin equivalente nativo al aviso de desinstalación de Android</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALACION -->
+  <section class="section" id="instalacion">
+    <div class="section-inner">
+      <span class="tag">Instalación</span>
+      <h2>3 apps, un solo circuito</h2>
+      <p class="section-lead">
+        SVIM se compone de 3 aplicaciones independientes — Info, Resultado e Integridad — que
+        deben instalarse en el mismo equipo y emparejarse una sola vez.
+      </p>
+
+      <ol class="install-steps">
+        <li>
+          <span class="install-num">1</span>
+          <div>
+            <h4>Instala las 3 apps</h4>
+            <p>SVIM Info, SVIM Resultado y SVIM Integridad, en el mismo equipo.</p>
+          </div>
+        </li>
+        <li>
+          <span class="install-num">2</span>
+          <div>
+            <h4>Abre la primera y genera un código</h4>
+            <p>La primera app que abras te dará un código de 6 dígitos válido por 15 minutos.</p>
+          </div>
+        </li>
+        <li>
+          <span class="install-num">3</span>
+          <div>
+            <h4>Ingresa el código en las otras 2</h4>
+            <p>Elige "Ya tengo un código" en las apps restantes y escribe el código generado.</p>
+          </div>
+        </li>
+        <li>
+          <span class="install-num">4</span>
+          <div>
+            <h4>Listo — el circuito ya está activo</h4>
+            <p>Desde ahí, las 3 apps se verifican entre sí y con el backend de forma automática.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="callout">
+        <strong>Nota:</strong> SVIM es, por ahora, una propuesta piloto desarrollada en el marco
+        de un trabajo académico presentado a OSIPTEL. Todavía no está publicada en Google Play
+        ni en App Store.
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="section-inner">
+      <span class="tag">Preguntas frecuentes</span>
+      <h2>Lo que más se pregunta</h2>
+
+      <div class="faq-list" id="faqList">
+        <div class="faq-item">
+          <button class="faq-question">¿SVIM accede a mi IMEI real?</button>
+          <div class="faq-answer"><p>No. Ninguna plataforma entrega el IMEI real a una app común — ni Android ni iOS. SVIM usa el identificador de instalación que cada sistema operativo sí permite leer, que cumple el mismo rol de identidad del equipo dentro del circuito.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Qué pasa si desinstalo una de las 3 apps?</button>
+          <div class="faq-answer"><p>Las otras 2 lo detectan — en Android, de forma casi instantánea, y en ambas plataformas a más tardar en el siguiente reporte periódico — y el circuito pasa a estado bloqueado hasta que la app faltante vuelva a estar presente.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿SVIM puede bloquear el equipo a nivel de red?</button>
+          <div class="faq-answer"><p>No por sí sola: eso lo hacen las operadoras sobre la base del IMEI. Lo que SVIM sí hace es bloquear el uso normal de las 3 apps y generar la alerta con evidencia para que OSIPTEL y las operadoras actúen.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Con qué instituciones se integra?</button>
+          <div class="faq-answer"><p>GSMA (homologación e IMEI bloqueados), RENTESEG (denuncias de robo/pérdida), RENIEC (identidad), SUNAT (estado tributario de vendedores), CONADIS, RETMIEF (registro de compra) y los operadores móviles.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Es un producto oficial de OSIPTEL?</button>
+          <div class="faq-answer"><p>Es una propuesta académica desarrollada para OSIPTEL, construida como piloto funcional de principio a fin para demostrar su viabilidad técnica.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/logo_svim.png" alt="SVIM">
+      <div>
+        <strong>SVIM</strong>
+        <span>Sistema de Vigilancia y Monitoreo</span>
+      </div>
+    </div>
+    <img class="footer-osiptel" src="img/logo_osiptel.png" alt="OSIPTEL">
+  </div>
+  <p class="footer-note">Proyecto académico — Propuesta para OSIPTEL. No constituye un servicio oficial publicado.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
